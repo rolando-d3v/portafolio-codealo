@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import Navigation from '../components/layouts/Navigation'
 
 
 export default function Home() {
@@ -9,7 +10,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
     <div>
-      <h2>hola mundo</h2>
+    <Navigation/>
     </div>
     </div>
   )
