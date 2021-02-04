@@ -11,6 +11,7 @@ module.exports = {
         'secondary': '#ea9e49',
         'dark-blue': '#0c1f51',
         'light-primary': '#eec292',
+        'black-bg': '#0f182f',
 
         rose: colors.rose,
         pink: colors.pink,
