@@ -11,7 +11,7 @@ export default function Home() {
         <title>Create Next App</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <div className="h-full bg-black-bg ">
+      <div className="h-screen bg-black-bg ">
         <Navigation />
 
         <main>
