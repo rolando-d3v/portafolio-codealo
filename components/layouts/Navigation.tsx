@@ -21,7 +21,7 @@ const Navigation: React.FC = () => {
       {/* navigation tablet y desktop */}
       <nav className="w-full bg-black-bg  text-white  h-16 hidden md:block ">
         <div className="flex items-center justify-between ">
-          <section className="flex items-center space-x-3 ">
+          <section className="flex items-center space-x-6 ">
             <div className="bg-primary h-16 w-16 flex items-center  justify-center ">
               <FaIcons.FaCode className="w-6 h-6  " />
             </div>
@@ -37,7 +37,7 @@ const Navigation: React.FC = () => {
           Codealo
           </section>
 
-          <section className="flex items-center space-x-3 mr-4">
+          <section className="flex items-center space-x-5 mr-4">
             <span>Perla pipol</span>
             <img className="w-10 rounded-full" src="assets/avatar.jpg" alt="" />
           </section>
