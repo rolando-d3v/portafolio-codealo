@@ -14,15 +14,15 @@ export default function Home() {
         <Navigation />
         <main>
           <section></section>
-          <section>
+          <section className='p-6' >
             <h2
-              className="text-white font-bold text-5xl "
+              className="text-white font-bold text-6xl mb-4 "
               style={{ textShadow: "0px 10px 50px rgba(255,255,255,0.45)" }}
             >
               Bienvenidos al blog de Rolando
             </h2>
-            <hr className="border border-primary" />
-            <p className="text-gray-400">
+            <hr className="border border-primary hidden" />
+            <p className="text-gray-400 text-lg ">
               Lorem ipsum dolor sit, amet consectetur adipisicing elit. Velit
               laudantium molestias, nulla provident dolore nisi ducimus
               voluptatibus laborum eveniet quo quos cum eaque repellat quas ad.
@@ -30,7 +30,7 @@ export default function Home() {
             </p>
 
             <h3 className="text-white">Regsitrate para mas contenido</h3>
-            <div className="flex space-x-4">
+            <div className="flex space-x-3">
               <input
                 className="rounded-2xl px-4 focus:outline-none bg-gray-300 bg-opacity-25 text-white"
                 type="text"
