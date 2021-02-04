@@ -6,8 +6,8 @@ const Navigation: React.FC = () => {
   return (
     <div>
       {/* navigation movil */}
-      <nav className="w-full bg-dark-blue text-white flex md:hidden items-center h-16 justify-between px-8 ">
-        <section className="bg-primary h-16 w-12 flex items-center  justify-center">
+      <nav className="w-full bg-dark-blue text-white flex md:hidden items-center h-16 justify-between pr-4">
+        <section className="bg-primary h-16 w-16 flex items-center  justify-center">
           <FaIcons.FaCode className="w-6 h-6" />
         </section>
 
